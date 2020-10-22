@@ -1,0 +1,22 @@
+{
+  "name": "rob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node ./src/index.js input.txt"
+  },
+  "author": "usman",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "26.5.3"
+  },
+  "jest": {
+    "testRegex": "(__tests__/).*(\\.spec\\.jsx?$)",
+    "modulePaths": [
+      "./src",
+      "./node_modules"
+    ]
+  }
+}
